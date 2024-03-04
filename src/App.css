@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.container{
+    background-color: #635063;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+    padding: 15px;    
+}
+
+.container-input{
+   text-align: center;
+}
+/*BOTONES*/
+.btn{
+    background-color: #fa9b9b;
+  }
+  .btn:hover{
+    background-color: #e88087;
+  }
+
+.nuevaTarea{
+    display: inline;
+}
+
+.check{
+    color: rgb(44, 196, 148);
+    font-size: 20px;
+    margin: 2px;
+}
+
+.check:hover{
+    color: rgb(27, 121, 91);
+}
+
+.delete{
+    color: #f75f69;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.delete:hover{
+    color: #b83c44;
+}
+
+.realizada{
+    text-decoration: line-through;
+    color: red;
+    
+}
+
+
